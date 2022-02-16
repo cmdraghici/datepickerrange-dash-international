@@ -1,0 +1,11 @@
+include datepr/datepr.min.js
+include datepr/datepr.min.js.map
+include datepr/async-*.js
+include datepr/async-*.js.map
+include datepr/*-shared.js
+include datepr/*-shared.js.map
+include datepr/metadata.json
+include datepr/package-info.json
+include README.md
+include LICENSE
+include package.json
