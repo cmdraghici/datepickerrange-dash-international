@@ -1,11 +1,11 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-export ''_datepickerrange
+export ''_datepickerrangeinternational
 
 """
-    ''_datepickerrange(;kwargs...)
+    ''_datepickerrangeinternational(;kwargs...)
 
-A datepickerrange component.
+A DatePickerRangeInternational component.
 ExampleComponent is an example component.
 It takes a property, `label`, and
 displays it.
@@ -16,9 +16,9 @@ Keyword arguments:
 - `label` (String; required): A label that will be printed when this component is rendered.
 - `value` (String; optional): The value displayed in the input.
 """
-function ''_datepickerrange(; kwargs...)
+function ''_datepickerrangeinternational(; kwargs...)
         available_props = Symbol[:id, :label, :value]
         wild_props = Symbol[]
-        return Component("''_datepickerrange", "datepickerrange", "datepr", available_props, wild_props; kwargs...)
+        return Component("''_datepickerrangeinternational", "DatePickerRangeInternational", "date_picker_range", available_props, wild_props; kwargs...)
 end
 

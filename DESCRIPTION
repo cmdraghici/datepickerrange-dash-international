@@ -1,13 +1,13 @@
-Package: datepr
-Title: Component representing a date picker range with the option of picking multiple languages.
+Package: datePickerRange
+Title: Project Description
 Version: 0.0.1
-Description: Component representing a date picker range with the option of picking multiple languages.
+Description: Project Description
 Depends: R (>= 3.0.2)
 Imports: 
 Suggests: 
 License: MIT + file LICENSE
-URL: https://github.com/cmdraghici/datepr
-BugReports: https://github.com/cmdraghici/datepr/issues
+URL: 
+BugReports: 
 Encoding: UTF-8
 LazyData: true
 KeepSource: true

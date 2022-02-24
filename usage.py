@@ -1,4 +1,4 @@
-import datepr
+import date_picker_range
 import dash
 from dash.dependencies import Input, Output
 import dash_html_components as html
@@ -6,7 +6,7 @@ import dash_html_components as html
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
-    datepr.datepickerrange(
+    date_picker_range.DatePickerRangeInternational(
         id='input',
         value='my-value',
         label='my-label'

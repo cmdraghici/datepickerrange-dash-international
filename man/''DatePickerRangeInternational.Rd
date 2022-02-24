@@ -1,16 +1,16 @@
 % Auto-generated: do not edit by hand
-\name{''datepickerrange}
+\name{''DatePickerRangeInternational}
 
-\alias{''datepickerrange}
+\alias{''DatePickerRangeInternational}
 
-\title{datepickerrange component}
+\title{DatePickerRangeInternational component}
 
 \description{
 ExampleComponent is an example component. It takes a property, `label`, and displays it. It renders an input with the property `value` which is editable by the user.
 }
 
 \usage{
-''datepickerrange(id=NULL, label=NULL, value=NULL)
+''DatePickerRangeInternational(id=NULL, label=NULL, value=NULL)
 }
 
 \arguments{

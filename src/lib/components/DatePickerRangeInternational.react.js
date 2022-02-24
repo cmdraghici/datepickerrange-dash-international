@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
  * It renders an input with the property `value`
  * which is editable by the user.
  */
-export default class datepickerrange extends Component {
+export default class DatePickerRangeInternational extends Component {
     render() {
         const {id, label, setProps, value} = this.props;
 
@@ -35,9 +35,9 @@ export default class datepickerrange extends Component {
     }
 }
 
-datepickerrange.defaultProps = {};
+DatePickerRangeInternational.defaultProps = {};
 
-datepickerrange.propTypes = {
+DatePickerRangeInternational.propTypes = {
     /**
      * The ID used to identify this component in Dash callbacks.
      */

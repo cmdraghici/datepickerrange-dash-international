@@ -3,8 +3,8 @@
 from dash.development.base_component import Component, _explicitize_args
 
 
-class datepickerrange(Component):
-    """A datepickerrange component.
+class DatePickerRangeInternational(Component):
+    """A DatePickerRangeInternational component.
 ExampleComponent is an example component.
 It takes a property, `label`, and
 displays it.
@@ -24,8 +24,8 @@ Keyword arguments:
     @_explicitize_args
     def __init__(self, id=Component.UNDEFINED, label=Component.REQUIRED, value=Component.UNDEFINED, **kwargs):
         self._prop_names = ['id', 'label', 'value']
-        self._type = 'datepickerrange'
-        self._namespace = 'datepr'
+        self._type = 'DatePickerRangeInternational'
+        self._namespace = 'date_picker_range'
         self._valid_wildcard_attributes =            []
         self.available_properties = ['id', 'label', 'value']
         self.available_wildcard_properties =            []
@@ -37,4 +37,4 @@ Keyword arguments:
             if k not in args:
                 raise TypeError(
                     'Required argument `' + k + '` was not specified.')
-        super(datepickerrange, self).__init__(**args)
+        super(DatePickerRangeInternational, self).__init__(**args)

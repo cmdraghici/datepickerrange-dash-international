@@ -1,7 +1,7 @@
 /* eslint no-magic-numbers: 0 */
 import React, {Component} from 'react';
 
-import { datepickerrange } from '../lib';
+import { DatePickerRangeInternational } from '../lib';
 
 class App extends Component {
 
@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <datepickerrange
+                <DatePickerRangeInternational
                     setProps={this.setProps}
                     {...this.state}
                 />

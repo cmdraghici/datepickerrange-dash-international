@@ -1,6 +1,6 @@
 
-name = "Datepr"
-uuid = "1b08a953-4be3-4667-9a23-611975c0f416"
+name = "DatePickerRange"
+uuid = "1b08a953-4be3-4667-9a23-ebd07ccede4d"
 authors = ["Cezar M Draghici <cmdraghici.92@gmail.com>"]
 version = "0.0.1"
 

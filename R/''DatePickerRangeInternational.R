@@ -1,7 +1,7 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
 #' @export
-''datepickerrange <- function(id=NULL, label=NULL, value=NULL) {
+''DatePickerRangeInternational <- function(id=NULL, label=NULL, value=NULL) {
     
     props <- list(id=id, label=label, value=value)
     if (length(props) > 0) {
@@ -9,10 +9,10 @@
     }
     component <- list(
         props = props,
-        type = 'datepickerrange',
-        namespace = 'datepr',
+        type = 'DatePickerRangeInternational',
+        namespace = 'date_picker_range',
         propNames = c('id', 'label', 'value'),
-        package = 'datepr'
+        package = 'datePickerRange'
         )
 
     structure(component, class = c('dash_component', 'list'))

@@ -9,7 +9,7 @@ import sys
 import importlib
 
 
-components_package = 'datepr'
+components_package = 'date_picker_range'
 
 components_lib = importlib.import_module(components_package)
 
